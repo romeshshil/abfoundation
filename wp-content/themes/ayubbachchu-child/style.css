@@ -1,0 +1,328 @@
+/*
+Theme Name: Ayub Bachchu Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the ayub bachchu Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Ayub Bachchu
+Author URI: http://www.kriesi.at
+Template: ayubbachchu
+*/
+
+
+
+/*Add your own styles here:*/
+
+
+#header_meta{
+	padding: 5px;
+}
+.phone-info a{
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.phone-info a span{
+    font-family: 'entypo-fontello';	
+}
+.header_color .sub_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Menu and Logo Design */
+.header_color .main_menu ul>li a{
+    height: 36px !important;
+    line-height: 36px !important;
+    margin-top: 27px;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+	margin-left: 10px;
+}
+.header_color .main_menu ul>li.current-menu-item a, .header_color .main_menu ul>li a:hover{
+    background: #ED1C24 !important;
+    color: #fff !important;
+}
+.av-main-nav ul {
+    width: 230px !important;
+}
+#top .av-main-nav ul{
+	padding-top: 35px;
+}
+#top .av-main-nav ul a {
+    line-height: 23px !important;
+    margin-top: 0px !important;
+	margin: 0px !important;
+	border-radius: 0px;
+}
+
+
+
+
+
+/* Css for slider Section */
+.caption_left .slideshow_caption {
+    display: block;
+    width: 710px;
+}
+.slideshow_caption h2{
+	background: transparent !important;
+	padding: 0px !important;
+    margin: 0px !important;
+    line-height: 56px;
+}
+.slideshow_caption .avia-caption-content h3{
+    text-transform: uppercase;
+    background: #ED1C24;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 34px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 12px;	
+}
+.slideshow_caption .avia-caption-content p{
+    background: transparent !important;	
+	padding: 0px !important;
+}
+.slideshow_caption .avia-slideshow-button:hover{
+	background: #ED1C24 !important;
+	color: #fff !important;
+	border-color: #ED1C24 !important;
+}
+
+
+
+
+
+
+/* css for new and upcoming Section */
+.ab_news .slide-image, .ab_news .slide-image img {
+    border-radius: 0px !important;
+}
+.ab_news .slide-meta{
+	display: none;
+}
+.ab_news .read_more{
+    color: #fff;
+    background-color: #ED1C24;
+    border-color: #ED1C24;	
+	display: inline-block;
+    padding: 6px 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+	text-decoration: none;
+}
+.ab_news .read_more:hover{
+	color: #fff !important;
+	background: #BE1D2D !important;
+	border-color: #BE1D2D !important;
+}
+.ab_news .slide-entry-title a{
+	color: #333333 !important;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ab_news .slide-entry-excerpt{
+    line-height: 1.5 !important;
+    color: #666666 !important;
+    font-size: 14px !important;	
+	margin-bottom: 10px;
+}
+.upcoming_event .av-upcoming-event-cost, .upcoming_event .av-upcoming-event-venue{
+	display: none;
+}
+.upcoming_event .av-upcoming-event-entry a{
+	text-decoration: none;
+}
+.upcoming_event .av-upcoming-event-entry img{
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+
+
+
+/* new and upcoming Below Red Section */
+#slider_below_section h2{
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 10px;	
+}
+#slider_below_section .av-subheading {
+	opacity: 1 !important;
+}
+#slider_below_section .avia-button:hover{
+	background: #fff !important;
+	border-color: #fff !important;
+	color: #ED1C24 !important;
+	opacity: 1 !important;
+}
+
+
+
+
+
+/* CSS for Donation Section 3 Block */
+#donation_details_section .av-special-heading h3 {
+    margin-top: 20px;
+}
+
+
+
+
+/* CSS for Musician’s Speech Section */
+.avia-testimonial-wrapper{
+	margin-bottom: 0px;
+}
+
+
+
+/* CSS for ab lyrics Section */
+
+#ab_lyrics .avia-content-slider{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+#ab_lyrics .slide-entry-wrap {
+    margin-bottom: 20px;
+}
+#ab_lyrics .slide-entry{
+    display: inline-flex;
+    width: 31.3%;
+    margin-left: 0px !important;
+    background: #F3F3F3;
+    padding: 20px;
+    margin: 0% 2%;
+}
+#ab_lyrics .slide-entry a{
+    background: transparent !important;
+    margin: 0px;
+    padding-right: 15px;
+}
+#ab_lyrics .slide-content{
+	padding-top: 15px;
+}
+#ab_lyrics .slide-entry .read_more{
+	display: none;
+}
+
+
+
+
+/* CSS For Footer Section */
+#footer{
+	border-top: none !important;
+}
+#footer .widget {
+    margin: 0px 0 0px 0;
+}
+#footer .av_one_fourth:nth-child(1) .widget_media_image{
+	margin-bottom: 0px !important;
+}
+#footer .av_one_fourth:nth-child(1) .widget_text{
+	margin: 0px !important;
+	margin-bottom: 10px !important;
+}
+#footer .av_one_fourth:nth-child(1) .widget_text a{
+	text-decoration: none;
+	padding-left: 15px;
+}
+#footer .av_one_fourth:nth-child(1) .widget_text a span{
+	color: #ED1C24 !important;
+    font-family: 'entypo-fontello';
+    font-size: 22px;
+    position: absolute;
+    margin-left: -15px;
+}
+#footer .av_one_fourth:nth-child(1) .social_bookmarks li {
+    float: unset;
+    display: inline-block;
+    border-right: none !important;
+    margin-right: 5px;
+}
+#footer .av_one_fourth:nth-child(1) .social_bookmarks li a{
+	background: #ED1C24 !important;
+	color: #fff !important;
+	font-size: 18px;
+	padding-left: 0px;
+}
+#footer .av_one_fourth:nth-child(1) .social_bookmarks li:hover a{
+	background: #fff !important;
+	color: #ED1C24 !important;
+}
+#footer .av_one_fourth:nth-child(4) .list-border li {
+    border-bottom: 1px dashed #666666;
+    line-height: 20px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+#footer .av_one_fourth:nth-child(4) .list-border li a{
+	text-decoration: none;
+}
+#footer .av_one_fourth:nth-child(4) .avia-instagram-feed{
+	margin-top: 15px;
+}
+#footer .av_one_fourth:nth-child(3) .widget_nav_menu li {
+    background-color: transparent;
+    border-bottom: 1px dashed #666666;
+    line-height: 20px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+#footer .av_one_fourth:nth-child(2) .news-headline{
+	color: #666666 !important;
+}
+#footer .av_one_fourth:nth-child(2) .news-thumb{
+	padding: 0px !important;
+	border: none !important;
+}
+#footer .av_one_fourth:nth-child(2) .news-thumb img{
+	width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* Css For Socket Section */
+#socket {
+    border-top: none !important;
+}
+#socket .copyright{
+	font-size: 14px; 
+}
+.socket_color a{
+	font-size: 14px; 
+	text-decoration: none;
+}
+
+
+
+
+
+
+

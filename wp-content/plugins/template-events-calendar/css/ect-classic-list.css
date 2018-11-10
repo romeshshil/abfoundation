@@ -1,0 +1,181 @@
+/*** 
+     CSS for Classic List Style
+  ***/
+
+  .ect-classic-list-events {
+    margin-bottom: 15px;
+    display: table;
+  /*  background-color: #f7f7f7;*/
+    align-items: center;
+    width: 100%;
+}
+
+/**
+    div ect-clslist-event-date  
+  **/
+
+  .ect-list-venue.classic-list-venue i, .ect-list-venue.classic-list-venue span {
+    color: #000;
+}
+.ect-classic-list-events .ect-clslist-event-date {
+    display: table-cell;
+    width: 160px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    background: rgba(255, 106, 92, 0.90);
+}
+.ect-featured-event .ect-clslist-event-date{
+    background: rgba(5, 101, 113, 0.9);
+}
+.ect-classic-list .ect-clslist-event-date .classic-list-schedule span {
+    display: block; 
+    word-break: break-word;
+   /* font-size: 50%;*/
+}
+.ect-clslist-event-date .classic-list-schedule span.ev-day {
+      font-size: 100%;   
+}
+.ect-clslist-event-date .classic-list-schedule span.ev-mo {
+    font-size: 50%;    
+}
+.ect-clslist-event-date .classic-list-schedule span.ev-yr {
+    font-size: 70%;    
+}
+
+/*  ---- End div ect-clslist-event-date ------  */
+
+
+
+/* 
+  ect-clslist-event-info
+ */
+ .ect-classic-list-events .ect-clslist-event-info {
+    background: #f3fbf1;
+    display: table-cell;
+    width: calc(100% - 340px);
+    vertical-align: middle;
+    padding: 10px 25px;
+    text-align: left;
+}
+.ect-clslist-title a.ect-event-url {
+    /* color: black;*/
+     text-decoration: none;
+     box-shadow: none;
+   }
+.ect-clslist-time {
+    font-size: 14px;
+}
+.ect-clslist-time i.fa.fa-clock-o {
+    padding-right: 5px;
+}
+.ect-clslist-title i.fa.fa-bell {
+    padding-right: 5px;
+}
+
+.ect-clslist-venue .ect-list-venue.classic-list-venue, .ect-list-venue .ect-google a {
+    color: black;
+}
+.ect-classic-list .ect-list-venue .ect-google {
+    margin-left: 5px;
+}
+.ect-clslist-venue i.fa.fa-map-marker {
+    padding-right: 5px;
+    font-size: 16px;
+}
+.ect-classic-list .ect-clslist-venue span.ect-icon {
+    float: left;
+    padding-right: 5px;
+    width: auto;
+}
+
+.ect-classic-list .ect-list-venue .ect-venue-details {
+  width: auto;
+}
+.ect-classic-list .ect-venue-details .tribe-address {
+    font-size: 85%;
+    display: inline!important;
+}
+.ect-classic-list .ect-list-venue.classic-list-venue span {
+    display: inline;
+}
+
+/* ---  End Event Info-----  */
+
+
+
+/*  Div Event Price */
+
+.ect-classic-list-events .ect-clslist-event-price {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    clear: both;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*
+.ect-classic-list .ect-clslist-event-details .ect-rate-area:hover {
+    color: white;
+}
+*/
+/* ---  End Div Event Price-----  */
+
+
+/* Div Event Detail */
+.ect-classic-list-events .ect-clslist-event-details {
+    background: #f3fbf1;
+    display: table-cell;
+    width: 180px;
+    text-align: center;
+    position: relative;
+}
+
+.ect-clslist-event-details a.tribe-events-read-more {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    box-shadow: none;
+}
+.ect-clslist-event-details i.fa.fa-angle-double-right {
+    margin-left: 5px;
+}
+
+/* ---  End Div Event Detail -----  */
+
+
+/**
+  Media Query 
+
+  */
+
+  @media only screen and (max-width: 790px) {
+    .ect-classic-list-events .ect-clslist-event-date {
+    display: inline-block;
+    width: 100%;
+    }
+    .ect-classic-list-events .ect-clslist-event-info {
+        display: inline-block;
+        width: 100%;
+        padding: 30px;
+    }
+    .ect-classic-list-events .ect-clslist-event-details {
+        display: inline-block;
+        width: 100%;
+        padding: 25px;
+        box-shadow: none !IMPORTANT;
+        text-align: center;
+    }
+  
+
+  }
